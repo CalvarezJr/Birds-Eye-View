@@ -1,0 +1,16 @@
+@media (min-width: 992px) {
+  #intro {
+    margin-top: -58.59px;
+    height: 50vh !important;
+  }
+}
+
+.alt-grid .container-fluid {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+body {
+ background-image: url('./bev-homepage.jpg')
+}

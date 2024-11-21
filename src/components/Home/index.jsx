@@ -1,23 +1,17 @@
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
-import Row from 'react-bootstrap/Row';
+import "./index.css";
 
 function Home() {
-    return (
-       
-        <Container>
-        <Row>
-          <Col>
-          <Image
-            className="bg-img"
-            src="./img/bev-homepage.jpg"
-            alt="Birds Eye View Homepage"
-        />
-          </Col>
-        </Row>
-      </Container>
-    )  
+  return (
+    <div className="container-fluid p-0">
+    <div className="row">
+      <img
+        className="home-img animate_animated animate__fadeInUpBig"
+        src="./img/bev-homepage.jpg"
+        alt="Birds Eye View Homepage"
+      />
+    </div>
+    </div>
+  );
 }
 
 export default Home;
