@@ -6,11 +6,60 @@
 }
 
 .alt-grid .container-fluid {
-  width: 100%;
+  width: auto;
   max-width: none;
   padding: 0;
 }
 
-body {
- background-image: url('./bev-homepage.jpg')
+/* body {
+ background-image: url('../../../public/img/bev-homepage-2.jpg');
+ width: 100%;
+} */
+.text-on-image {
+    position: absolute;
+    left: 38%;
+    bottom: 85%;
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.head-text {
+    position: relative;
+}
+.heading {
+    color: white;
+}
+.home-img {
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+    animation: fade;
+    animation-duration: 1s;
+  }
+.video {
+    filter: brightness(80%);
+}
+.btn-primary-outline {
+    background-color: #1b5fc5
+}
+h1{
+    font-family: 'Merriweather';
+    font-style: italic;
+}
+p{
+    font-family: 'Merriweather';
+}
+button{
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: bold;
 }
