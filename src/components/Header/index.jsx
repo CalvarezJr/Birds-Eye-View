@@ -20,7 +20,7 @@ function Header() {
 //   </ul>
 //   </div>
 // </nav>
-<nav className="navbar d-blue pb-1 navbar-expand-lg" data-bs-theme="dark">
+<nav className="navbar d-blue pb-1 navbar-expand-lg" data-bs-theme="light">
 <div className="container-fluid">
   <h1 className="ms-3 display-2">Birds Eye View</h1>
   <button
