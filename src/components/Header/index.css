@@ -1,6 +1,9 @@
 .navbar a {
-
+    color: black;
+    font-family: 'Merriweather';
+    font-weight: 300;
 }
 .navbar a:hover {
-    background-color: #a5d7e8;
+    /* background-color: #1b5fc5; */
+    color: white;
 }

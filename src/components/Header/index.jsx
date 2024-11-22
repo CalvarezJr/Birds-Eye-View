@@ -20,7 +20,7 @@ function Header() {
 //   </ul>
 //   </div>
 // </nav>
-<nav className="navbar d-blue pb-1 navbar-expand-lg" data-bs-theme="dark">
+<nav className="navbar d-blue pb-1 navbar-expand-lg border-bottom" data-bs-theme="light">
 <div className="container-fluid">
   <h1 className="ms-3 display-2">Birds Eye View</h1>
   <button
@@ -37,19 +37,19 @@ function Header() {
   <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
   <ul className="navbar-nav d-flex flex-row align-items-center justify-content-evenly list-unstyled flex-wrap">
     <li className="nav-item">
-      <a className="fs-2 text-black nav-item btn mx-4 nav-link" href="/">
+      <a className="fs-2 nav-item btn btn-primary mx-4 nav-link" href="/">
         About Me
       </a>
     </li>
     <li className="nav-item fs-1">|</li>
     <li className="nav-item">
-      <a className="fs-2 text-black nav-item btn mx-4 nav-link" href="/portfolio">
+      <a className="fs-2 nav-item btn btn-primary mx-4 nav-link" href="/portfolio">
         Portfolio
       </a>
     </li>
     <li className="nav-item fs-1">|</li>
     <li className="nav-item">
-      <a className="fs-2 text-black nav-item btn mx-4 nav-link" href="/contact">
+      <a className="fs-2 nav-item btn btn-primary mx-4 nav-link" href="/contact">
         Contact
       </a>
     </li>
