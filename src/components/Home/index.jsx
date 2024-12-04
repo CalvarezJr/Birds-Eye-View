@@ -16,11 +16,6 @@ function Home() {
         <div className="text-on-image animate_animated animate__fadeInDown">
           <h1 className="heading display-1">Carlos Alvarez</h1>
         </div>
-        <div className="col-12 btn-on-image animate_animated animate__fadeInDown">
-                <button type="button" className="btn btn-large btn-outline-primary fs-1">
-                    Get A Free Quote Today!
-                </button>
-            </div>
       </div>
       <div className="container mt-5">
         <div className="row text-center py-5">
