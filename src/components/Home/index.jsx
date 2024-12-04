@@ -72,6 +72,7 @@ function Home() {
         </div>
         <div className="col-12 text-center pb-5">
             <p className="fs-2">
+            Currently servicing the Denton-County area. <br />
             Comprehensive drone inspections for roofing assessments.<br /> 
             High-resolution aerial photography for property evaluations.<br /> 
             Real-time footage for insurance claim support.
