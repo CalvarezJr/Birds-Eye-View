@@ -23,6 +23,14 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+.btn-on-image {
+    position: absolute;
+    left: 41%;
+    bottom: 35%;
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
