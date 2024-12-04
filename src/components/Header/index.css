@@ -7,3 +7,11 @@
     /* background-color: #1b5fc5; */
     color: white;
 }
+.navbar button {
+    color: black;
+    font-family: 'Merriweather';
+    font-weight: 300;
+}
+.navbar button:hover {
+    color: white;
+}
