@@ -54,6 +54,13 @@ function Header() {
       </a>
     </li>
     <li className="nav-item fs-1">|</li>
+    <li>
+    <div className="col-12">
+                <button type="button" className="btn btn-primary mx-4 nav-link fs-2">
+                    Get A Free Quote Today!
+                </button>
+            </div>
+    </li>
   </ul>
 </div>
 </div>
