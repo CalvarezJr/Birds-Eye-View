@@ -4,23 +4,7 @@ import "./index.css";
 
 function Header() {
   return (
-//     <nav className="navbar bg-body-secondary">
-//   <div className="container-fluid">
-//     <a className="navbar-brand" href="/">Birds Eye View</a>
-//     <ul className="nav justify-content-end">
-//   <li className="nav-item">
-//     <a className="nav-link link-dark" aria-current="page" href="/">About</a>
-//   </li>
-//   <li className="nav-item">
-//     <a className="nav-link link-dark" href="/portfolio">Portfolio</a>
-//   </li>
-//   <li className="nav-item">
-//     <a className="nav-link link-dark btn-primary-outline btn" href="/contact">Contact</a>
-//   </li>
-//   </ul>
-//   </div>
-// </nav>
-<nav className="navbar d-blue pb-1 navbar-expand-lg border-bottom" data-bs-theme="light">
+/* <nav className="navbar d-blue pb-1 navbar-expand-lg border-bottom" data-bs-theme="light">
 <div className="container-fluid">
   <h1 className="ms-3 display-2">Birds Eye View</h1>
   <button
@@ -64,6 +48,67 @@ function Header() {
   </ul>
 </div>
 </div>
+</nav> */
+<nav className="bg-blue-900 pb-1 border-b">
+  <div className="container mx-auto flex items-center justify-between px-4 py-3">
+    {/* Navbar Brand */}
+    <h1 className="text-3xl lg:text-4xl text-white font-bold">Birds Eye View</h1>
+    
+    {/* Mobile Menu Button */}
+    <button
+      className="block lg:hidden p-2 text-gray-200 hover:text-white focus:outline-none"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <div className="space-y-1">
+        <span className="block w-6 h-0.5 bg-white"></span>
+        <span className="block w-6 h-0.5 bg-white"></span>
+        <span className="block w-6 h-0.5 bg-white"></span>
+      </div>
+    </button>
+
+    {/* Navbar Links */}
+    <div className="hidden lg:flex items-center space-x-6" id="navbarNavDropdown">
+      <ul className="flex items-center space-x-6 text-white">
+        <li>
+          <a
+            href="/"
+            className="text-lg font-medium bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded"
+          >
+            About Me
+          </a>
+        </li>
+        <li className="text-xl font-bold">|</li>
+        <li>
+          <a
+            href="/portfolio"
+            className="text-lg font-medium bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded"
+          >
+            Portfolio
+          </a>
+        </li>
+        <li className="text-xl font-bold">|</li>
+        <li>
+          <a
+            href="/contact"
+            className="text-lg font-medium bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded"
+          >
+            Contact
+          </a>
+        </li>
+        <li className="text-xl font-bold">|</li>
+        <li>
+          <button
+            type="button"
+            className="text-lg font-medium bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded"
+          >
+            Get A Free Quote Today!
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
   );
 }
