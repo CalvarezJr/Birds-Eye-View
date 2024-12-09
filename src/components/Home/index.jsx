@@ -1,4 +1,3 @@
-import { FiDivideCircle } from "react-icons/fi";
 import "./index.css";
 
 function Home() {
@@ -10,7 +9,7 @@ function Home() {
         src="./img/homepage-2.jpg"
         alt="Birds Eye View Homepage"
       /> */}
-        <video className="video" width="1920" height="1080" autoPlay loop muted>
+        <video className="video" width="2434" height="1086" autoPlay loop muted>
           <source src="./img/example-video.mp4" type="video/mp4" />
         </video>
         <div className="text-on-image animate_animated animate__fadeInDown">
