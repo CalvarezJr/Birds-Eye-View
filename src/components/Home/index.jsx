@@ -109,7 +109,7 @@ function Home() {
   </div>
   <div className="container mx-auto mt-5">
     <div className="text-center py-5">
-      <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold">Who We Are</h1>
+      <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">Who We Are</h1>
     </div>
     <div className="p-4">
       <p className="text-lg md:text-xl leading-relaxed">

@@ -1,5 +1,4 @@
 
-import { Link } from "react-router-dom";
 import "./index.css";
 
 function Header() {
@@ -49,59 +48,41 @@ function Header() {
 </div>
 </div>
 </nav> */
-<nav className="bg-blue-900 pb-1 border-b">
+<nav className="bg-gradient-to-b from-sky-blue to-cloud-white pb-1 border-b">
   <div className="container mx-auto flex items-center justify-between px-4 py-3">
     {/* Navbar Brand */}
-    <h1 className="text-3xl lg:text-4xl text-white font-bold">Birds Eye View</h1>
-    
-    {/* Mobile Menu Button */}
-    <button
-      className="block lg:hidden p-2 text-gray-200 hover:text-white focus:outline-none"
-      aria-controls="navbarNavDropdown"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <div className="space-y-1">
-        <span className="block w-6 h-0.5 bg-white"></span>
-        <span className="block w-6 h-0.5 bg-white"></span>
-        <span className="block w-6 h-0.5 bg-white"></span>
-      </div>
-    </button>
+    <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-bold">Birds Eye View</h1>
 
     {/* Navbar Links */}
-    <div className="hidden lg:flex items-center space-x-6" id="navbarNavDropdown">
+    <div className="hidden lg:flex items-center space-x-6">
       <ul className="flex items-center space-x-6 text-white">
         <li>
           <a
             href="/"
-            className="text-lg font-medium bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded"
+            className="text-lg md:text-xl lg:text-2xl font-medium text-white"
           >
-            About Me
+            <button className="hover:text-yellow-ochre px-4 py-2 transition duration-300 transform hover:scale-125">About</button>
           </a>
         </li>
-        <li className="text-xl font-bold">|</li>
         <li>
           <a
             href="/portfolio"
-            className="text-lg font-medium bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded"
+            className="text-lg md:text-xl lg:text-2xl font-medium text-white5"
           >
-            Portfolio
+            <button className="hover:text-yellow-ochre px-4 py-2 transition duration-300 transform hover:scale-125">Portfolio</button>
           </a>
         </li>
-        <li className="text-xl font-bold">|</li>
         <li>
           <a
             href="/contact"
-            className="text-lg font-medium bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded"
+            className="text-lg md:text-xl lg:text-2xl font-medium text-white"
           >
-            Contact
+            <button className="hover:text-yellow-ochre px-4 py-2 transition duration-300 transform hover:scale-125">Contact</button>
           </a>
         </li>
-        <li className="text-xl font-bold">|</li>
         <li>
           <button
-            type="button"
-            className="text-lg font-medium bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded"
+            className="text-lg md:text-xl lg:text-2xl font-medium text-white px-4 py-2 transition duration-300 transform hover:scale-125 hover:text-yellow-ochre"
           >
             Get A Free Quote Today!
           </button>
@@ -110,6 +91,8 @@ function Header() {
     </div>
   </div>
 </nav>
+
+
   );
 }
 

@@ -10,3 +10,19 @@ body, html {
 .container-fluid {
   padding-left: 0;
 }
+
+
+.navbar a {
+  color: black;
+  font-family: 'Merriweather';
+  font-weight: 300;
+}
+
+.navbar button {
+  color: black;
+  font-family: 'Merriweather';
+  font-weight: 300;
+}
+.navbar button:hover {
+  color: white;
+}
