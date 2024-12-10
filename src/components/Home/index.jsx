@@ -87,6 +87,7 @@ function Home() {
     //   </div>
     // </>
     <>
+
   <div className="flex justify-center items-center p-0 head-text relative w-full">
     {/* <img
       className="home-img animate__animated animate__zoomIn"
