@@ -1,9 +1,4 @@
-@media (min-width: 992px) {
-  #intro {
-    margin-top: -58.59px;
-    height: 50vh !important;
-  }
-}
+
 
 .alt-grid .container-fluid {
   width: auto;
@@ -17,8 +12,7 @@
 } */
 .text-on-image {
     position: absolute;
-    left: 38%;
-    bottom: 85%;
+    bottom: 80%;
     animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
