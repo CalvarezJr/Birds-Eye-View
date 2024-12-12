@@ -19,17 +19,18 @@ function Project() {
     //     <p className="project-text">{desc}</p>
     //   </div>
     // </div>
-    <div className="relative overflow-hidden animate__animated animate__bounceInDown">
-    <video
-      className="w-full h-full object-cover"
-      autoPlay
-      loop
-      muted
-    >
-      <source src={vid} type="video/mp4" />
-    </video>
-    <p>{desc}</p>
-    </div>
+    // <div className="relative overflow-hidden animate__animated animate__bounceInDown">
+    // <video
+    //   className="w-full h-full object-cover"
+    //   autoPlay
+    //   loop
+    //   muted
+    // >
+    //   <source src={vid} type="video/mp4" />
+    // </video>
+    // <p>{desc}</p>
+    // </div>
+    <></>
   );
 }
 
