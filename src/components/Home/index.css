@@ -29,9 +29,6 @@
 .head-text {
     position: relative;
 }
-.heading {
-    color: white;
-}
 .home-img {
     width: 100%;
     height: auto;
@@ -46,7 +43,7 @@
     background-color: #1b5fc5
 }
 h1{
-    font-family: 'Merriweather';
+    font-family: 'Merienda';
     font-style: italic;
 }
 p{

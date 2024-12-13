@@ -1,9 +1,102 @@
-
+import React, { useState } from "react";
 import "./index.css";
 
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-/* <nav className="navbar d-blue pb-1 navbar-expand-lg border-bottom" data-bs-theme="light">
+    <header className="sticky top-0 z-50 bg-gradient-to-b from-sky-blue to-cloud-white bg-opacity-70">
+      <div className="container mx-auto flex justify-between items-center">
+        {/* Logo */}
+        <h1 className="text-4xl font-extrabold text-jet-black transition duration-300 animate-pulse">
+          <img className="logo" src="./img/FullLogo_Transparent.png" />
+        </h1>
+
+        {/* Navigation for Desktop */}
+        <nav className="hidden md:flex space-x-8">
+          <a
+            href="/"
+            className="text-jet-black text-xl md:text-2xl lg:text-3xl hover:text-yellow-ochre transition duration-300 hover:scale-125"
+          >
+            About
+          </a>
+          <a
+            href="/portfolio"
+            className="text-jet-black text-xl md:text-2xl lg:text-3xl hover:text-yellow-ochre hover:font-Merienda transition duration-300 hover:scale-125"
+          >
+            Portfolio
+          </a>
+          <a
+            href="/contact"
+            className="text-jet-black text-xl md:text-2xl lg:text-3xl hover:text-yellow-ochre transition duration-300 hover:scale-125"
+          >
+            Contact
+          </a>
+          <a 
+            href="/quote"
+            className="text-xl md:text-2xl lg:text-3xl italic text-jet-black px-4 transition duration-300 transform hover:scale-125 hover:text-yellow-ochre">
+            Get A Free Quote Today!
+          </a>
+        </nav>
+
+        {/* Mobile Menu Button */}
+        <div className="md:hidden">
+          <button
+            onClick={toggleMenu}
+            className="text-jet-black hover:text-yellow-ochre transition duration-300 px-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-8 w-8"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className="text-jet-black p-4 space-y-4 font-medium md:hidden animate-fade-in">
+          <a
+            href="/"
+            className="block hover:text-yellow-ochre transition duration-300 hover:scale-90 hover:text-xl"
+          >
+            About
+          </a>
+          <a
+            href="/portfolio"
+            className="block hover:text-yellow-ochre transition duration-300 hover:scale-90 hover:text-xl"
+          >
+            Portfolio
+          </a>
+          <a
+            href="/contact"
+            className="block hover:text-yellow-ochre transition duration-300 hover:scale-90 hover:text-xl"
+          >
+            Contact
+          </a>
+          <a 
+            href="/quote"
+            className="block italic transition duration-300 transform hover:scale-90 hover:text-yellow-ochre">
+            Get A Free Quote Today!
+          </a>
+        </div>
+      )}
+    </header>
+    /* <nav className="navbar d-blue pb-1 navbar-expand-lg border-bottom" data-bs-theme="light">
 <div className="container-fluid">
   <h1 className="ms-3 display-2">Birds Eye View</h1>
   <button
@@ -48,12 +141,12 @@ function Header() {
 </div>
 </div>
 </nav> */
-<nav className="bg-gradient-to-b from-sky-blue to-cloud-white pb-1 border-b">
+    /* <nav className="bg-gradient-to-b from-sky-blue to-cloud-white pb-1 border-b">
   <div className="container mx-auto flex items-center justify-between px-4 py-3">
-    {/* Navbar Brand */}
-    <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-bold">Birds Eye View</h1>
 
-    {/* Navbar Links */}
+    <h1 className="text-2xl md:text-3xl lg:text-4xl text-jet-black font-bold">Birds Eye View</h1>
+
+
     <div className="hidden lg:flex items-center space-x-6">
       <ul className="flex items-center space-x-6 text-white">
         <li>
@@ -90,9 +183,7 @@ function Header() {
       </ul>
     </div>
   </div>
-</nav>
-
-
+</nav> */
   );
 }
 
