@@ -72,7 +72,7 @@ function Home() {
     <div className="text-center py-5 pb-9">
       <button className="btn btn-large border-2 border-yellow-ochre hover:border-sky-blue text-sky-blue hover:text-yellow-ochre hover:scale-150 transform duration-300 text-xl md:text2xl lg:text-3xl px-6 py-2 rounded">
         <a
-          href="/quote"
+          href="/contact"
           className="">
           Get A Free Quote Today!
         </a>
