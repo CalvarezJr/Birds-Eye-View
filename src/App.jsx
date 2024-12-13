@@ -5,7 +5,6 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import Quote from './components/Quote';
 import 'animate.css';
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/quote' element={<Quote />} />
+            <Route path='/contact' element={<Contact />} />
           </Routes>  
         </BrowserRouter>
 

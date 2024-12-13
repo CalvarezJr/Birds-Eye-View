@@ -37,7 +37,7 @@ function Header() {
             Contact
           </a>
           <a 
-            href="/quote"
+            href="/Contact"
             className="text-xl md:text-2xl lg:text-3xl italic text-jet-black px-4 transition duration-300 transform hover:scale-125 hover:text-yellow-ochre">
             Get A Free Quote Today!
           </a>
@@ -89,7 +89,7 @@ function Header() {
             Contact
           </a>
           <a 
-            href="/quote"
+            href="/contact"
             className="block italic transition duration-300 transform hover:scale-90 hover:text-yellow-ochre">
             Get A Free Quote Today!
           </a>
