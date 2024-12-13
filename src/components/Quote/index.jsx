@@ -1,6 +1,6 @@
-function Contact() {
-  return (
-    <div className="max-w-7xl mx-auto min-h-screen">
+function Quote() {
+    return (
+        <div className="max-w-7xl mx-auto">
       <div className="text-center grid grid-col-1 mb-9">
         <h1 className="text-2xl md:text-3xl lg:text-4xl mb-4">Ready to Elevate Your Vision?</h1>
         <p className="text-lg md:text-xl lg:text-2xl text-center">
@@ -129,7 +129,7 @@ function Contact() {
         </div>
       </div>
     </div>
-  );
+    )
 }
 
-export default Contact;
+export default Quote;

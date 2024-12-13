@@ -1,15 +1,5 @@
 
-.navbar a {
-    color: black;
-    font-family: 'Merriweather';
-    font-weight: 300;
-}
-
-.navbar button {
-    color: black;
-    font-family: 'Merriweather';
-    font-weight: 300;
-}
-.navbar button:hover {
-    color: white;
+.logo {
+    width: 200px;
+    height: auto;
 }
