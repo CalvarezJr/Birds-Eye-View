@@ -13,8 +13,9 @@ function App() {
   return (
     <div className='app bg-cloud-white min-h-screen'>
       <main>
-        <Header />
+        
         <BrowserRouter>
+        <Header />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/portfolio' element={<Portfolio />} />
