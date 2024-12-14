@@ -13,7 +13,6 @@ function App() {
   return (
     <div className='app bg-cloud-white min-h-screen'>
       <main>
-        
         <BrowserRouter>
         <Header />
           <Routes>
