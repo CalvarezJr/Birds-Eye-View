@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
+import { Link } from 'react-router-dom'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,29 +19,29 @@ function Header() {
 
         {/* Navigation for Desktop */}
         <nav className="hidden md:flex space-x-8">
-          <a
+          <Link
             href="/"
             className="text-jet-black text-xl md:text-2xl lg:text-3xl hover:text-yellow-ochre transition duration-300 hover:scale-125"
           >
             About
-          </a>
-          <a
+          </Link>
+          <Link
             href="/portfolio"
             className="text-jet-black text-xl md:text-2xl lg:text-3xl hover:text-yellow-ochre hover:font-Merienda transition duration-300 hover:scale-125"
           >
             Portfolio
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact"
             className="text-jet-black text-xl md:text-2xl lg:text-3xl hover:text-yellow-ochre transition duration-300 hover:scale-125"
           >
             Contact
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="/Contact"
             className="text-xl md:text-2xl lg:text-3xl italic text-jet-black px-4 transition duration-300 transform hover:scale-125 hover:text-yellow-ochre">
             Get A Free Quote Today!
-          </a>
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -70,29 +71,29 @@ function Header() {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="text-jet-black p-4 space-y-4 font-medium md:hidden animate-fade-in">
-          <a
+          <Link
             href="/"
             className="block hover:text-yellow-ochre transition duration-300 hover:scale-90 hover:text-xl"
           >
             About
-          </a>
-          <a
+          </Link>
+          <Link
             href="/portfolio"
             className="block hover:text-yellow-ochre transition duration-300 hover:scale-90 hover:text-xl"
           >
             Portfolio
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact"
             className="block hover:text-yellow-ochre transition duration-300 hover:scale-90 hover:text-xl"
           >
             Contact
-          </a>
-          <a 
+          </Link>
+          <Link
             href="/contact"
             className="block italic transition duration-300 transform hover:scale-90 hover:text-yellow-ochre">
             Get A Free Quote Today!
-          </a>
+          </Link>
         </div>
       )}
     </header>
