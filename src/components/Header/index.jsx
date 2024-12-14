@@ -38,7 +38,7 @@ function Header() {
             Contact
           </Link>
           <Link 
-            to="/Contact"
+            to="/contact"
             className="text-xl md:text-2xl lg:text-3xl italic text-jet-black px-4 transition duration-300 transform hover:scale-125 hover:text-yellow-ochre">
             Get A Free Quote Today!
           </Link>
