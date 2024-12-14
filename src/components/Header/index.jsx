@@ -19,29 +19,29 @@ function Header() {
 
         {/* Navigation for Desktop */}
         <nav className="hidden md:flex space-x-8">
-          <Link
+          <a
             to="/"
             className="text-jet-black text-xl md:text-2xl lg:text-3xl hover:text-yellow-ochre transition duration-300 hover:scale-125"
           >
             About
-          </Link>
-          <Link
+          </a>
+          <a
             to="/portfolio"
             className="text-jet-black text-xl md:text-2xl lg:text-3xl hover:text-yellow-ochre hover:font-Merienda transition duration-300 hover:scale-125"
           >
             Portfolio
-          </Link>
-          <Link
+          </a>
+          <a
             to="/contact"
             className="text-jet-black text-xl md:text-2xl lg:text-3xl hover:text-yellow-ochre transition duration-300 hover:scale-125"
           >
             Contact
-          </Link>
-          <Link 
+          </a>
+          <a 
             to="/Contact"
             className="text-xl md:text-2xl lg:text-3xl italic text-jet-black px-4 transition duration-300 transform hover:scale-125 hover:text-yellow-ochre">
             Get A Free Quote Today!
-          </Link>
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -71,29 +71,29 @@ function Header() {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="text-jet-black p-4 space-y-4 font-medium md:hidden animate-fade-in">
-          <Link
+          <a
             to="/"
             className="block hover:text-yellow-ochre transition duration-300 hover:scale-90 hover:text-xl"
           >
             About
-          </Link>
-          <Link
+          </a>
+          <a
             to="/portfolio"
             className="block hover:text-yellow-ochre transition duration-300 hover:scale-90 hover:text-xl"
           >
             Portfolio
-          </Link>
-          <Link
+          </a>
+          <a
             to="/contact"
             className="block hover:text-yellow-ochre transition duration-300 hover:scale-90 hover:text-xl"
           >
             Contact
-          </Link>
-          <Link
+          </a>
+          <a
             to="/contact"
             className="block italic transition duration-300 transform hover:scale-90 hover:text-yellow-ochre">
             Get A Free Quote Today!
-          </Link>
+          </a>
         </div>
       )}
     </header>
